@@ -84,6 +84,7 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
         enum34 \
         pyyaml \
         typing \
+        pillow<7 \
         && \
     $PIP_INSTALL \
         torch==1.3.1 torchvision==0.4.2 -f \
