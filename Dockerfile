@@ -56,10 +56,6 @@ RUN python -m pip --no-cache-dir install --upgrade \
         'git+https://github.com/facebookresearch/fvcore' \
         'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 
-# ==================================================================
-# Set the working directory
-# ------------------------------------------------------------------
-WORKDIR /LingXi
 
 # =================================================================
 # Define environment variable
