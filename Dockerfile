@@ -52,6 +52,7 @@ RUN python -m pip --no-cache-dir install --upgrade \
         tabulate \
         py-cpuinfo \
         psutil \
+        pip install -U Werkzeug==0.16.0 \
         'git+https://github.com/facebookresearch/fvcore' \
         'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 
